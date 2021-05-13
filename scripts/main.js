@@ -1,13 +1,4 @@
 let myImage = document.querySelector('img');
-
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/pear-booty.jpeg') {
-      myImage.setAttribute('src','images/guy-booty.jpeg');
-    } else {
-      myImage.setAttribute('src','images/pear-booty.jpeg');
-    }
-}
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h2');
 function setUserName() {
