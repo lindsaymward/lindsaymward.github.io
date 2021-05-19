@@ -42,9 +42,22 @@ p {
     width: 500px;
     height: 400px;
 }
+#corgi, #frog {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+#rhino {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+}
 a {
     font-size: 14px;
 }
 figcaption {
-    color:darkgreen
+    color:darkgreen;
+    text-align: center;
 }
